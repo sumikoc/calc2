@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes & TO DO List</title>
+</head>
+<body>
+    <h2>To Do List</h2>
+    <ul>
+        <li>Figure out if we can publish it to Predix as-is</li>
+        <li>try it on IE and FF</li>
+        <li>try it on mobile</li>
+        <li>Figure out how to make it testable</li>
+        <li>Figure out how to move the math to a new file - establish an API and test it</li>
+        <li>figure out how to move the math to the server (ideally a Predix service)</li>
+        <li>re-implement using test-first development</li>
+        <li>think about the directory structure of a web app.  Perhaps follow JetBrain's example project.</li>
+        <li>make the UI prettier</li>
+        <li>use angular directives to make the html more readable</li>
+        <li>re-implement in angular 2</li>
+    </ul>
+
+    <H2>Implementation Notes</H2>
+    <ul>
+        <li>learned angular from codeschool.com's free course, "Shaping up with Angular JS"</li>
+        <li>I think I started it as a JetBrains Webstorm empty project
+            <ul>
+                <li>used npm to make a package.json</li>
+                <li>I used npm to install bootstrap, angular, n3-charts, chai, express, mocha.  Used the --save to write it to the package.json</li>
+            </ul>
+        </li>
+        <li>created a local git repository</li>
+        <li>created a github repository and copied my code to it (doesn't copy node_modules)</li>
+        <li>I used n3-charts for the graphing package.  Could probably substitute something else fairly easily.  Maybe would need to change the data structure.</li>
+        <li>the n3-chart was resizing when anything was clicked.  This was solved by creating a style so I could set the size of class "my-chart"</li>
+
+    </ul>
+
+<H2>Resources</H2>
+<ul>
+    <li>CodeSchool: <a href="https://www.codeschool.com/courses/shaping-up-with-angular-js">https://www.codeschool.com/courses/shaping-up-with-angular-js</a> </li>
+    <li>Haven't tried it, but looks promising: <a href="https://thinkster.io/mean-stack-tutorial">https://thinkster.io/mean-stack-tutorial</a></li>
+    <li>bootstrap: <a href="http://getbootstrap.com/">http://getbootstrap.com/</a></li>
+    <li>N3 Charts: <a href="https://n3-charts.github.io">https://n3-charts.github.io</a></li>
+    <li>Angular JS: <a href="https://angularjs.org/">https://angularjs.org/</a>
+        <ul>
+            <li>Unit Testing with jasmine: <a href="https://docs.angularjs.org/guide/unit-testing">https://docs.angularjs.org/guide/unit-testing</a></li>
+        </ul>
+    </li>
+
+    <li>Angular JS w3schools: <a href="http://www.w3schools.com/angular/">http://www.w3schools.com/angular/</a></li>
+    <li>Angular 2: Haven't looked too much at this: <a href="https://angular.io/">https://angular.io/</a></li>
+    <li>Mocha testing framework: <a href="https://mochajs.org/">https://mochajs.org/</a></li>
+    <li>Mocha testing with node example: <a href="https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha">https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha</a></li>
+    <li>Smashing Magazine TDD tutorial: <a href="https://www.smashingmagazine.com/2014/10/introduction-to-unit-testing-in-angularjs/">https://www.smashingmagazine.com/2014/10/introduction-to-unit-testing-in-angularjs/</a></li>
+    <li>Scotch Angular TDD: <a href="https://scotch.io/tutorials/testing-angularjs-with-jasmine-and-karma-part-1">https://scotch.io/tutorials/testing-angularjs-with-jasmine-and-karma-part-1</a></li>
+    <li>Unit Testing Best Practices in AngularJS<a href="http://andyshora.com/unit-testing-best-practices-angularjs.html">http://andyshora.com/unit-testing-best-practices-angularjs.html</a></li>
+</ul>
+
+</body>
+</html>
